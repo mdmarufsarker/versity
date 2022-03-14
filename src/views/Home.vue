@@ -5,11 +5,11 @@
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="../assets/img/slider/1.jpg" alt="img" />
+          <img :src="slide1" alt="img" />
         </figure>
       </div>
       <div class="mu-slider-content">
-        <h4>Welcome To Varsity</h4>
+        <h4>Welcome To Green University</h4>
         <span></span>
         <h2>We Will Help You To Learn</h2>
         <p>
@@ -21,11 +21,10 @@
       </div>
     </div>
     <!-- Start single slider item -->
-    <!-- Start single slider item -->
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="../assets/img/slider/2.jpg" alt="img" />
+          <img :src="slide2" alt="img" />
         </figure>
       </div>
       <div class="mu-slider-content">
@@ -41,11 +40,10 @@
       </div>
     </div>
     <!-- Start single slider item -->
-    <!-- Start single slider item -->
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="../assets/img/slider/3.jpg" alt="img" />
+          <img :src="slide3" alt="img" />
         </figure>
       </div>
       <div class="mu-slider-content">
@@ -121,12 +119,19 @@
                   </div>
                   <!-- End Title -->
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Rerum pariatur fuga eveniet soluta aspernatur rem, nam
-                    voluptatibus voluptate voluptates sapiente, inventore.
-                    Voluptatem, maiores esse molestiae.
+                    Green University of Bangladesh (GUB), one of the leading
+                    private universities in Bangladesh, was founded in 2003
+                    under the Private University Act 1992 with a vision to
+                    create a global higher education center of excellence. GUB
+                    offers students from all walks of life the advantages of an
+                    affordable, personalized education of global standard. As a
+                    modern, dynamic, and innovative institution for
+                    undergraduate and graduate students, GUB lays stress on
+                    quality education imparted by a galaxy of highly qualified,
+                    dynamic, dedicated, and well-experienced faculty members
+                    with global exposure.
                   </p>
-                  <ul>
+                  <!-- <ul>
                     <li>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </li>
@@ -140,10 +145,22 @@
                       Repellat assumenda adipisci pariatur ipsam eos similique,
                       explicabo.
                     </li>
-                  </ul>
+                  </ul> -->
+                  <br /><br />
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perspiciatis quaerat harum facilis excepturi et? Mollitia!
+                    GUB’s greatest resource in fulfilling its mission is its
+                    faculty of about 300 distinguished scholars and educators,
+                    whose scholarly research experiences and teaching skills
+                    enrich the students’ classroom environment. To ensure
+                    quality education, GUB is equipped with modern
+                    infrastructural facilities, latest academic curricula,
+                    Internet with Wi-Fi facility, air-conditioned classrooms,
+                    and seminar halls supported with multi-media, rich
+                    libraries, most sophisticated laboratories, students’
+                    cafeterias, standby generators, etc. The students of GUB
+                    experience a vibrant university community with a diverse
+                    range of academic offerings and about 6,500 participating
+                    students.
                   </p>
                 </div>
               </div>
@@ -151,10 +168,10 @@
                 <div class="mu-about-us-right">
                   <a
                     id="mu-abtus-video"
-                    href="https://www.youtube.com/embed/HN3pm9qYAUs"
+                    href="https://www.youtube.com/embed/HRb-N2q0zXc"
                     target="mutube-video"
                   >
-                    <img src="assets/img/about-us.jpg" alt="img" />
+                    <img src="../assets/img/about-us.jpg" alt="img" />
                   </a>
                 </div>
               </div>
@@ -339,11 +356,14 @@
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
                     <a href="#"
-                      ><img src="assets/img/courses/1.jpg" alt="img"
+                      ><img
+                        src="../assets/img/courses/1.jpg"
+                        class="h-96"
+                        alt="img"
                     /></a>
                     <figcaption class="mu-latest-course-imgcaption">
-                      <a href="#">Drawing</a>
-                      <span><i class="fa fa-clock-o"></i>90Days</span>
+                      <a href="#">BSE in CSE</a>
+                      <span><i class="fa fa-clock-o"></i>4 Year</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
@@ -364,11 +384,14 @@
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
                     <a href="#"
-                      ><img src="assets/img/courses/2.jpg" alt="img"
+                      ><img
+                        src="../assets/img/courses/2.jpg"
+                        class="h-96"
+                        alt="img"
                     /></a>
                     <figcaption class="mu-latest-course-imgcaption">
-                      <a href="#">Engineering </a>
-                      <span><i class="fa fa-clock-o"></i>75Days</span>
+                      <a href="#">BSE in EEE</a>
+                      <span><i class="fa fa-clock-o"></i>4 Year</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
@@ -389,10 +412,13 @@
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
                     <a href="#"
-                      ><img src="assets/img/courses/3.jpg" alt="img"
+                      ><img
+                        src="../assets/img/courses/3.jpg"
+                        class="h-96"
+                        alt="img"
                     /></a>
                     <figcaption class="mu-latest-course-imgcaption">
-                      <a href="#">Academic</a>
+                      <a href="#">BSE in Textile</a>
                       <span><i class="fa fa-clock-o"></i>45Days</span>
                     </figcaption>
                   </figure>
@@ -414,11 +440,14 @@
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
                     <a href="#"
-                      ><img src="assets/img/courses/1.jpg" alt="img"
+                      ><img
+                        src="../assets/img/courses/3.jpg"
+                        class="h-96"
+                        alt="img"
                     /></a>
                     <figcaption class="mu-latest-course-imgcaption">
-                      <a href="#">Drawing</a>
-                      <span><i class="fa fa-clock-o"></i>90Days</span>
+                      <a href="#">BSE in Textile</a>
+                      <span><i class="fa fa-clock-o"></i>45Days</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
@@ -439,11 +468,14 @@
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
                     <a href="#"
-                      ><img src="assets/img/courses/2.jpg" alt="img"
+                      ><img
+                        src="../assets/img/courses/3.jpg"
+                        class="h-96"
+                        alt="img"
                     /></a>
                     <figcaption class="mu-latest-course-imgcaption">
-                      <a href="#">Engineering </a>
-                      <span><i class="fa fa-clock-o"></i>75Days</span>
+                      <a href="#">BSE in Textile</a>
+                      <span><i class="fa fa-clock-o"></i>45Days</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
@@ -464,10 +496,13 @@
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
                     <a href="#"
-                      ><img src="assets/img/courses/3.jpg" alt="img"
+                      ><img
+                        src="../assets/img/courses/3.jpg"
+                        class="h-96"
+                        alt="img"
                     /></a>
                     <figcaption class="mu-latest-course-imgcaption">
-                      <a href="#">Academic</a>
+                      <a href="#">BSE in Textile</a>
                       <span><i class="fa fa-clock-o"></i>45Days</span>
                     </figcaption>
                   </figure>
@@ -516,7 +551,7 @@
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
                       <img
-                        src="assets/img/teachers/teacher-01.png"
+                        src="../assets/img/teachers/teacher-01.png"
                         alt="teacher img"
                       />
                       <div class="mu-our-teacher-social">
@@ -527,8 +562,8 @@
                       </div>
                     </figure>
                     <div class="mu-ourteacher-single-content">
-                      <h4>Brian Dean</h4>
-                      <span>Math Teacher</span>
+                      <h4>Ms. Umme Ruman</h4>
+                      <span>Assistant Professor CSE Dept</span>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Similique quod pariatur recusandae odio
@@ -541,7 +576,7 @@
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
                       <img
-                        src="assets/img/teachers/teacher-02.png"
+                        src="../assets/img/teachers/teacher-02.png"
                         alt="teacher img"
                       />
                       <div class="mu-our-teacher-social">
@@ -552,8 +587,10 @@
                       </div>
                     </figure>
                     <div class="mu-ourteacher-single-content">
-                      <h4>James Hein</h4>
-                      <span>Physics Teacher</span>
+                      <h4>Ms. Sumaiya Kabir</h4>
+                      <span
+                        >Assistant Professor and Program Coordinator (Day)</span
+                      >
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Similique quod pariatur recusandae odio
@@ -566,7 +603,7 @@
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
                       <img
-                        src="assets/img/teachers/teacher-03.png"
+                        src="../assets/img/teachers/teacher-03.png"
                         alt="teacher img"
                       />
                       <div class="mu-our-teacher-social">
@@ -577,8 +614,8 @@
                       </div>
                     </figure>
                     <div class="mu-ourteacher-single-content">
-                      <h4>Rebeca Michel</h4>
-                      <span>English Teacher</span>
+                      <h4>Mr. Ahmed Iqbal Pritom</h4>
+                      <span>Senior Lecturer CSE Dept</span>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Similique quod pariatur recusandae odio
@@ -591,7 +628,7 @@
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
                       <img
-                        src="assets/img/teachers/teacher-04.png"
+                        src="../assets/img/teachers/teacher-04.png"
                         alt="teacher img"
                       />
                       <div class="mu-our-teacher-social">
@@ -602,8 +639,8 @@
                       </div>
                     </figure>
                     <div class="mu-ourteacher-single-content">
-                      <h4>John Doe</h4>
-                      <span>Biology Teacher</span>
+                      <h4>Zeseya Sharmin</h4>
+                      <span>Lecturer CSE Dept</span>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Similique quod pariatur recusandae odio
@@ -634,14 +671,20 @@
                 <div class="mu-testimonial-quote">
                   <blockquote>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Voluptatem rerum soluta aperiam blanditiis obcaecati
-                      eveniet aliquam consequatur nobis eaque id.
+                      It is my great pleasure to introduce our university to you
+                      through this website-the virtual gateway to Green
+                      University of Bangladesh (GUB). I along with all members
+                      of the university heartily welcome the visitors. I hope
+                      that this website will give you total information about
+                      what makes our university special, in terms of our
+                      academic expertise, course curriculum academic programs,
+                      co-curriculum activities, modern labs and library
+                      facilities, financial and necessary logistic supports...
                     </p>
                   </blockquote>
                 </div>
                 <div class="mu-testimonial-img">
-                  <img src="assets/img/testimonial-1.png" alt="img" />
+                  <img src="../assets/img/gallery/vc.jpg" alt="img" />
                 </div>
                 <div class="mu-testimonial-info">
                   <h4>John Doe</h4>
@@ -654,14 +697,20 @@
                 <div class="mu-testimonial-quote">
                   <blockquote>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Voluptatem rerum soluta aperiam blanditiis obcaecati
-                      eveniet aliquam consequatur nobis eaque id.
+                      The 21st century with the rapid expansion of globalization
+                      has initiated revolutionary changes in scientific
+                      achievements, educational diversification, and cultural
+                      enrichment almost in all the countries. Bangladesh is no
+                      exception in this regard. The society of Bangladesh has
+                      embarked on considerable transformations to cope with new
+                      challenges. One of the areas where tangible success has
+                      been achieved is the domain of human resources
+                      development...
                     </p>
                   </blockquote>
                 </div>
                 <div class="mu-testimonial-img">
-                  <img src="assets/img/testimonial-3.png" alt="img" />
+                  <img src="../assets/img/gallery/chairman.jpg" alt="img" />
                 </div>
                 <div class="mu-testimonial-info">
                   <h4>Rebaca Michel</h4>
@@ -674,18 +723,24 @@
                 <div class="mu-testimonial-quote">
                   <blockquote>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Voluptatem rerum soluta aperiam blanditiis obcaecati
-                      eveniet aliquam consequatur nobis eaque id.
+                      The 21st century with the rapid expansion of globalization
+                      has initiated revolutionary changes in scientific
+                      achievements, educational diversification, and cultural
+                      enrichment almost in all the countries. Bangladesh is no
+                      exception in this regard. The society of Bangladesh has
+                      embarked on considerable transformations to cope with new
+                      challenges. One of the areas where tangible success has
+                      been achieved is the domain of human resources
+                      development...
                     </p>
                   </blockquote>
                 </div>
                 <div class="mu-testimonial-img">
-                  <img src="assets/img/testimonial-2.png" alt="img" />
+                  <img src="../assets/img/gallery/chairman.jpg" alt="img" />
                 </div>
                 <div class="mu-testimonial-info">
-                  <h4>Stev Smith</h4>
-                  <span>Happy Student</span>
+                  <h4>Rebaca Michel</h4>
+                  <span>Happy Parent</span>
                 </div>
               </div>
               <!-- end testimonial single item -->
@@ -718,9 +773,7 @@
                 <div class="col-md-4 col-sm-4">
                   <article class="mu-blog-single-item">
                     <figure class="mu-blog-single-img">
-                      <a href="#"
-                        ><img src="assets/img/blog/blog-1.jpg" alt="img"
-                      /></a>
+                      <a href="#"><img src="" alt="img" /></a>
                       <figcaption class="mu-blog-caption">
                         <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
                       </figcaption>
@@ -805,9 +858,25 @@
 </template>
 
 <script>
+import slide1 from "../assets/img/slider/1.jpg";
+import slide2 from "../assets/img/slider/2.jpg";
+import slide3 from "../assets/img/slider/3.jpg";
+
 export default {
   name: "Home",
+  data() {
+    return {
+      slide1,
+      slide2,
+      slide3,
+    };
+  },
 };
 </script>
 
-<style></style>
+<style>
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+</style>

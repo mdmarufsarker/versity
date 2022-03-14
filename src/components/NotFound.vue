@@ -1,43 +1,41 @@
 <template>
-  <section class="page_404 mx-auto w-auto flex flex-col">
-    <!-- Page breadcrumb -->
-    <section id="mu-page-breadcrumb">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="mu-page-breadcrumb-area">
-              <h2>404</h2>
-              <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li class="active">404</li>
-              </ol>
-            </div>
+  <!-- Page breadcrumb -->
+  <section id="mu-page-breadcrumb">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-page-breadcrumb-area">
+            <h2>404</h2>
+            <ol class="breadcrumb">
+              <li><a href="#">Home</a></li>
+              <li class="active">404</li>
+            </ol>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End breadcrumb -->
-
-    <!-- Start error section  -->
-    <section id="mu-error">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="mu-error-area">
-              <p>Oops! The page you requested was not found!</p>
-              <span
-                >The page you are looking for is not available or has been
-                removed or changed.</span
-              >
-              <h2>404</h2>
-              <a class="mu-post-btn" href="index.html">GO TO HOME</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End error section  -->
+    </div>
   </section>
+  <!-- End breadcrumb -->
+
+  <!-- Start error section  -->
+  <section id="mu-error">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-error-area">
+            <p>Oops! The page you requested was not found!</p>
+            <span
+              >The page you are looking for is not available or has been removed
+              or changed.</span
+            >
+            <h2>404</h2>
+            <a class="mu-post-btn" href="index.html">GO TO HOME</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End error section  -->
 </template>
 
 <script>

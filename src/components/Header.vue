@@ -10,11 +10,11 @@
                 <div class="mu-header-top-left">
                   <div class="mu-top-email">
                     <i class="fa fa-envelope"></i>
-                    <span>info@markups.io</span>
+                    <span>https://green.edu.bd/</span>
                   </div>
                   <div class="mu-top-phone">
                     <i class="fa fa-phone"></i>
-                    <span>(568) 986 652</span>
+                    <span>01757074301</span>
                   </div>
                 </div>
               </div>
@@ -26,16 +26,24 @@
                         <a href="#"><span class="fa fa-facebook"></span></a>
                       </li>
                       <li>
-                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="https://twitter.com/GreenVarsity"
+                          ><span class="fa fa-twitter"></span
+                        ></a>
                       </li>
-                      <li>
+                      <!-- <li>
                         <a href="#"><span class="fa fa-google-plus"></span></a>
+                      </li> -->
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/school/greenuniversity/"
+                          ><span class="fa fa-linkedin"></span
+                        ></a>
                       </li>
                       <li>
-                        <a href="#"><span class="fa fa-linkedin"></span></a>
-                      </li>
-                      <li>
-                        <a href="#"><span class="fa fa-youtube"></span></a>
+                        <a
+                          href="https://www.youtube.com/channel/UCqkKlbRhEOpvEk675h8HoEw"
+                          ><span class="fa fa-youtube"></span
+                        ></a>
                       </li>
                     </ul>
                   </nav>
@@ -69,36 +77,49 @@
           </button>
           <!-- LOGO -->
           <!-- TEXT BASED LOGO -->
-          <a class="navbar-brand" href="index.html"
-            ><i class="fa fa-university"></i><span>Varsity</span></a
+          <routert-link
+            to="/"
+            class="navbar-brand cursor-pointer flex items-center"
+            ><img src="../assets/logo.png" class="w-16 h-16" alt="" /><span
+              >University</span
+            ></routert-link
           >
           <!-- IMG BASED LOGO  -->
           <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a> -->
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active">
+              <router-link to="/">Home</router-link>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                 >Course <span class="fa fa-angle-down"></span
               ></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="course.html">Course Archive</a></li>
-                <li><a href="course-detail.html">Course Detail</a></li>
+                <li>
+                  <router-link to="/courseArchive">Course Archive</router-link>
+                </li>
+                <li>
+                  <router-link to="/courseDetail">Course Detail</router-link>
+                </li>
               </ul>
             </li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><router-link to="/Gallery">Gallery</router-link></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                 >Blog <span class="fa fa-angle-down"></span
               ></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="blog-archive.html">Blog Archive</a></li>
-                <li><a href="blog-single.html">Blog Single</a></li>
+                <li>
+                  <router-link to="/blogArchive">Blog Archive</router-link>
+                </li>
+                <li>
+                  <router-link to="/blogSingle">Blog Single</router-link>
+                </li>
               </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="404.html">404 Page</a></li>
+            <li><router-link to="/contact">Contact</router-link></li>
             <li>
               <a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a>
             </li>
